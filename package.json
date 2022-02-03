@@ -1,5 +1,6 @@
-{ "homepage": "http://adamwest023.github.io/website",
+{
   "name": "website",
+  "homepage": "http://adamwest023.github.io/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
