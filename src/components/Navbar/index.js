@@ -12,7 +12,6 @@ import {
     List,
     Typography,
     Box,
-    Icon,
     Grid,
 } from '@material-ui/core'
 

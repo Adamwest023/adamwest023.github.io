@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer'
+// import Footer from '../../components/Footer'
 import Header from '../../components/Header';
 import Particles from 'react-tsparticles';
 import { makeStyles } from '@material-ui/core/styles';
