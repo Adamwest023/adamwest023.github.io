@@ -8,6 +8,7 @@ import { CardActionArea } from '@mui/material';
 import ReactFest from '../../assets/images/React-fest.png'
 import FoodFestival from '../../assets/images/FoodFestival.png'
 import Recipe from '../../assets/images/Recipe.png'
+import Filmreel from '../../assets/images/Filmreel.png'
 
 
 
@@ -24,7 +25,7 @@ const reactFestChange = () => {
     window.location.href = "https://react-fest.herokuapp.com/"
 }
 const filmReelChange = () => {
-    window.location.href = "https://vimeo.com/user31678022"
+    window.location.href = "https://vimeo.com/672158658"
 }
 const foodFestivalChange = () => {
     window.location.href = "https://adamwest023.github.io/food-festival/index.html#"
@@ -125,16 +126,16 @@ const Portfolio = () => {
                                 <CardMedia
                                     component="img"
                                     height="200"
-                                    image={ReactFest}
-                                    alt="React-fest"
-                                    onClick={reactFestChange}
+                                    image={Filmreel}
+                                    alt="film reel"
+                                    onClick={filmReelChange}
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div" height='10' >
-                                        React-Fest
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Reel
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        React built application to demo a music festival. This application uses the MERN stack
+                                       Various projects worked on over the past 2 years. Includes film work, drone work, assistant camera work
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -146,16 +147,16 @@ const Portfolio = () => {
                                 <CardMedia
                                     component="img"
                                     height="200"
-                                    image="/static/images/cards/contemplative-reptile.jpg"
-                                    alt="film reel"
-                                    onClick={filmReelChange}
+                                    image={ReactFest}
+                                    alt="React-fest"
+                                    onClick={reactFestChange}
                                 />
                                 <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Reel
+                                    <Typography gutterBottom variant="h5" component="div" height='10' >
+                                        React-Fest
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                       Various projects worked on over the past 2 years. Includes film work, drone work, assistant camera work
+                                        React built application to demo a music festival. This application uses the MERN stack
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>

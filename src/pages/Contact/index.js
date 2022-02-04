@@ -21,7 +21,7 @@ const Contact = () => {
                                             Contact Me
                                         </Typography>
                                     </Grid>
-                                    <Grid item xs={1} sm={6}>
+                                    <Grid item xs={12} sm={6}>
                                         <TextField label="First Name" name="First Name" placeholder="Enter first name" variant="outlined" fullWidth required />
                                     </Grid>
                                     <Grid item xs={12} sm={6}>

@@ -77,12 +77,14 @@ const menuItems = [
     },
     {
         listIcon: <Apps />,
-        listText: "Portfolio"
+        listText: "Portfolio",
+        listPath: "/portfolio"
 
     },
     {
         listIcon: <ContactMail />,
-        listText: "Contact"
+        listText: "Contact",
+        listPath: "/contact"
 
     },
 ]
@@ -127,14 +129,14 @@ const Navbar = () => {
                 <Box component="nav" sx={{ pb: '50px' }}>
                     <AppBar position='sticky' style={{ backgroundColor: "#495867", alignItems: 'center' }}>
                         <Toolbar style={{ width: '100%' }} >
-                            <Grid container spacing={6} justifyContent="space-between"
+                            <Grid container spacing={{xs:1, md:5}} 
                                 alignItems="center">
                                 <Grid item xs={3}>
                                     <IconButton onClick={toggleSlider("right", true)}>
                                         <ArrowBack style={{ color: '#F7F7FF', alignItems: 'left' }} />
                                     </IconButton>
                                 </Grid>
-                                <Grid item xs={6}>
+                                <Grid item xs={3} md={6}>
                                     <Typography component={Link} variant='h5' style={{ color: '#F7F7FF', textDecoration: "none", paddingRight: '10px' }}
                                         to={'/portfolio'}>
                                         Portfolio
