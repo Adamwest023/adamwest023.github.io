@@ -39,7 +39,7 @@ const Contact = () => {
                                     <Grid item xs={12}>
                                         <Button type="submit" variant='contained' color="primary" fullWidth> Submit</Button>
                                     </Grid>
-                                    <input type="hidden" name="_next" value="http://localhost:3000/success"></input>
+                                    <input type="hidden" name="_next" value="/success"></input>
                                     <input type="hidden" name="_captcha" value="false"></input>
                                 </Grid>
                                 </form>
