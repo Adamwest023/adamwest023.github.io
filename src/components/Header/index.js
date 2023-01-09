@@ -8,6 +8,9 @@ import {
 import { makeStyles } from '@material-ui//core/styles'
 import Typed from 'react-typed'
 import headshot from '../../assets/images/Headshot.jpg'
+import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.min.css"
+
 
 //CSS style
 const useStyles = makeStyles(theme => ({
@@ -56,6 +59,7 @@ const Header = () => {
                     loop
                 />
             </Typography>
+            <Button> this is a bootstrap button</Button>
         </Box>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Route} from 'react-router-dom';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline'
-
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import Home from './pages/Home';
 import Resume from './pages/Resume';
