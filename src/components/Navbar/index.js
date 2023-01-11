@@ -10,7 +10,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import "/Users/admin/Desktop/Bootcamp/portfolio-react2/website/src/styles/navbar.css"
 
 
-//CSS styles
+
 const SiteNavbar = () => {
     return (
         <Navbar className="navbar" collapseOnSelect expand="lg"  variant="dark">

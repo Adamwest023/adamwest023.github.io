@@ -3,14 +3,12 @@ import { Route} from 'react-router-dom';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline'
 import "bootstrap/dist/css/bootstrap.min.css"
-
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Success from './pages/Success'
 import Rentals from './pages/Rentals'
-import "./App.css"
 
 function App() {
   return (
