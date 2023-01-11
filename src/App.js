@@ -9,6 +9,8 @@ import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Success from './pages/Success'
+import Rentals from './pages/Rentals'
+import "./App.css"
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route path='/portfolio' component={Portfolio} />
       <Route path='/contact' component={Contact} />
       <Route path='/success' component={Success} />
+      <Route path='/rentals' component={Rentals} />
     </>
   );
 }

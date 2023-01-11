@@ -1,0 +1,14 @@
+.navbar {
+    border-bottom: 1px solid white
+}
+.navbar-element {
+    color: white !important;
+    background-color: black;
+}
+
+#brand {
+font-size: 30px;}
+
+#collasible-nav-dropdown {
+    color: white !important;
+}

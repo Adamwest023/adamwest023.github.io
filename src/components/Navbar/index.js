@@ -7,21 +7,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import "/Users/admin/Desktop/Bootcamp/portfolio-react2/website/src/styles/navbar.css"
 
 
 //CSS styles
 const SiteNavbar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand href="/">Adam West</Navbar.Brand>
+        <Navbar className="navbar" collapseOnSelect expand="lg"  variant="dark">
+            <Container >
+                <Navbar.Brand id="brand" href="/">Adam {'\n'} West</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link component= {Link}to={'/portfolio'} href="/portfolio">Cinematography</Nav.Link>
-                        <Nav.Link component= {Link} to={'/portfolio'}href="/portfolio">Web Dev</Nav.Link>  
-                        <Nav.Link component= {Link} to={'/portfolio'}href="/rentals">Rentals</Nav.Link>
-                        <NavDropdown title="Information" id="collasible-nav-dropdown">
+                    <Nav className="me-auto ">
+                        <Nav.Link className="navbar-element" component= {Link}to={'/portfolio'} href="/portfolio">Cinematography</Nav.Link>
+                        <Nav.Link className="navbar-element" component= {Link} to={'/portfolio'}href="/portfolio">Web Dev</Nav.Link>  
+                        <Nav.Link className="navbar-element"href="/rentals">Rentals</Nav.Link>
+                        <NavDropdown className="navbar-element" title="Information" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="/resume">About</NavDropdown.Item>
                             <NavDropdown.Item href="/resume">Resume</NavDropdown.Item>
                             <NavDropdown.Divider />
