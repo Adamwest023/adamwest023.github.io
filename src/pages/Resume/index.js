@@ -21,15 +21,15 @@ const Resume = () => {
               <p>Tonkawa Documentary</p>
               <p><a href="https://thewellaustin.com/stories/">Stories at the Well</a></p>
               <p>Water Wars</p>
-              <p>Hi I'm Travis</p>
-              <p>Hi I'm Sevy</p>
+              <p><a>Hi I'm Travis</a></p>
+              <p><a>Hi I'm Sevy</a></p>
               <p>Cycle Breakers season 1</p>
               <p>American Dream Homes</p>
               <p>Forget the Alamo</p>
               <h6 className="film-list">Assistant Camera </h6>
-              <p>Magnolia Table season 7</p>
-              <p>Le Creuset Commercial</p>
-              <p>Plate Crate Commercial</p>
+              <p><a>Magnolia Table season 7</a></p>
+              <p><a>Le Creuset Commercial</a></p>
+              <p><a>Plate Crate Commercial</a></p>
               <p><a href="https://www.youtube.com/watch?v=KwOOwwi-8Uk&t=33s">Louis Vuitton Commercial</a></p>
               <p>Iron Resurrection</p>
               <p>House of Ho </p>
