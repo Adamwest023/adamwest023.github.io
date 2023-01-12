@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 import { makeStyles } from '@material-ui/core/styles'
 import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
-import { Box, Typography, CardMedia, Grid, CardContent } from '@material-ui/core'
-import { CardActionArea } from '@mui/material';
 //photos for cards
 import ReactFest from '../../assets/images/React-fest.png'
 import FoodFestival from '../../assets/images/FoodFestival.png'
 import Recipe from '../../assets/images/Recipe.png'
-import Filmreel from '../../assets/images/Filmreel.png'
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
@@ -16,18 +13,9 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container';
 
-
-
-
-
-const shooterReel = () => {
-    window.location.href = "https://vimeo.com/672158658"
-}
+// links for cards
 const reactFestChange = () => {
     window.location.href = "https://react-fest.herokuapp.com/"
-}
-const filmReelChange = () => {
-    window.location.href = "https://vimeo.com/672158658"
 }
 const foodFestivalChange = () => {
     window.location.href = "https://adamwest023.github.io/food-festival/index.html#"
@@ -35,36 +23,37 @@ const foodFestivalChange = () => {
 const codingChange = () => {
     window.location.href = "https://adamwest023.github.io/git-a-recipe/"
 }
-const Portfolio = () => {
 
+const WebDev = () => {
     return (
         <>
-            <SiteNavbar />
+            <SiteNavbar/>
             <Container>
                 <Row xs={1} md={2} className="g-4 mt-2">
                     <Col >
-                        <Card alt="film reel" onClick={shooterReel} >
-                            <Card.Img className="image" variant="top" src={Filmreel} />
+                        <Card alt="REact Fest Website" onClick={reactFestChange} >
+                            <Card.Img className="image" variant="top" src={ReactFest} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
-                                    <div className="img-title">Film Reel</div>
+                                    <div className="img-title">React Fest </div>
                                 </div>
                             </div>
                         </Card>
                     </Col>
                     <Col >
-                        <Card alt="film reel" onClick={shooterReel} >
-                            <Card.Img className="image" variant="top" src={Filmreel} />
+                        <Card alt="Food Fest" onClick={foodFestivalChange} >
+                            <Card.Img className="image" variant="top" src={FoodFestival} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
-                                    <div className="img-title">Drone Reel</div>
+                                    <div className="img-title">Food Fest </div>
+                                    <div className="img-text">Food Api project</div>
                                 </div>
                             </div>
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={shooterReel} >
-                            <Card.Img className="image" variant="top" src={Filmreel} />
+                        <Card alt="film reel" onClick={codingChange} >
+                            <Card.Img className="image" variant="top" src={Recipe} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">Hi I'm Travis</div>
@@ -73,8 +62,8 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={shooterReel} >
-                            <Card.Img className="image" variant="top" src={Filmreel} />
+                        <Card alt="film reel" onClick={codingChange} >
+                            <Card.Img className="image" variant="top" src={Recipe} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">Hi I'm Sevy</div>
@@ -85,10 +74,9 @@ const Portfolio = () => {
 
                 </Row>
             </Container>
-            
             <Footer />
         </>
     )
 }
 
-export default Portfolio
+export default WebDev

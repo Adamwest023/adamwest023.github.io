@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Success from './pages/Success'
 import Rentals from './pages/Rentals'
+import WebDev from './pages/WebDev'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route path='/resume' component={Resume} />
       <Route path='/portfolio' component={Portfolio} />
+      <Route path="/webDev" component={WebDev} />
       <Route path='/contact' component={Contact} />
       <Route path='/success' component={Success} />
       <Route path='/rentals' component={Rentals} />

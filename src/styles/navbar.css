@@ -10,6 +10,12 @@
 #brand {
 font-size: 30px;}
 
-#collasible-nav-dropdown {
+.collapsed,
+.navbar-toggler-icon,
+.navbar-toggler,
+#collasible-nav-dropdown,
+#responsive-navbar-nav {
     color: white !important;
 }
+
+

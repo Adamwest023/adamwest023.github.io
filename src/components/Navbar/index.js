@@ -20,7 +20,7 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto ">
                         <Nav.Link className="navbar-element" component= {Link}to={'/portfolio'} href="/portfolio">Cinematography</Nav.Link>
-                        <Nav.Link className="navbar-element" component= {Link} to={'/portfolio'}href="/portfolio">Web Dev</Nav.Link>  
+                        <Nav.Link className="navbar-element" component= {Link} to={'/portfolio'}href="/webDev">Web Dev</Nav.Link>  
                         <Nav.Link className="navbar-element"href="/rentals">Rentals</Nav.Link>
                         <NavDropdown className="navbar-element" title="Information" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="/resume">About</NavDropdown.Item>
