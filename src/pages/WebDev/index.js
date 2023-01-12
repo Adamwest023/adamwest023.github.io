@@ -36,6 +36,7 @@ const WebDev = () => {
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">React Fest </div>
+                                    <div className="img-text">React website project</div>
                                 </div>
                             </div>
                         </Card>
@@ -46,6 +47,17 @@ const WebDev = () => {
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">Food Fest </div>
+                                    <div className="img-text">Stripe demo project</div> 
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col p-2 g-col-6>
+                        <Card alt="film reel" onClick={codingChange} >
+                            <Card.Img className="image" variant="top" src={Recipe} />
+                            <div className='img-hover' >
+                                <div className="image-overlay">
+                                    <div className="img-title">Git-a-Recipe</div>
                                     <div className="img-text">Food Api project</div>
                                 </div>
                             </div>
@@ -56,17 +68,8 @@ const WebDev = () => {
                             <Card.Img className="image" variant="top" src={Recipe} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
-                                    <div className="img-title">Hi I'm Travis</div>
-                                </div>
-                            </div>
-                        </Card>
-                    </Col>
-                    <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={codingChange} >
-                            <Card.Img className="image" variant="top" src={Recipe} />
-                            <div className='img-hover' >
-                                <div className="image-overlay">
-                                    <div className="img-title">Hi I'm Sevy</div>
+                                    <div className="img-title">PyShooter</div>
+                                    <div className="img-text">Python built game</div>
                                 </div>
                             </div>
                         </Card>

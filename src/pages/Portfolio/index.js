@@ -1,13 +1,7 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
 import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
-import { Box, Typography, CardMedia, Grid, CardContent } from '@material-ui/core'
-import { CardActionArea } from '@mui/material';
 //photos for cards
-import ReactFest from '../../assets/images/React-fest.png'
-import FoodFestival from '../../assets/images/FoodFestival.png'
-import Recipe from '../../assets/images/Recipe.png'
 import Filmreel from '../../assets/images/Filmreel.png'
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -23,18 +17,16 @@ import Container from 'react-bootstrap/Container';
 const shooterReel = () => {
     window.location.href = "https://vimeo.com/672158658"
 }
-const reactFestChange = () => {
-    window.location.href = "https://react-fest.herokuapp.com/"
-}
-const filmReelChange = () => {
+const droneReel =() => {
     window.location.href = "https://vimeo.com/672158658"
 }
-const foodFestivalChange = () => {
-    window.location.href = "https://adamwest023.github.io/food-festival/index.html#"
+const travisDoc = () => {
+    window.location.href = "https://tv.apple.com/us/episode/hi-im-travis-mills/umc.cmc.15sh3bkacqjj0cfqvvcokjexx"
 }
-const codingChange = () => {
-    window.location.href = "https://adamwest023.github.io/git-a-recipe/"
+const sevyDoc = () => {
+    window.location.href = "https://tv.apple.com/us/episode/hi-im-sevy/umc.cmc.7423yg7w4ajih44dpaa44jxyi?showId=umc.cmc.4wurqdmcfa40pcdr7730pynwy"
 }
+
 const Portfolio = () => {
 
     return (
@@ -53,7 +45,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col >
-                        <Card alt="film reel" onClick={shooterReel} >
+                        <Card alt="film reel" onClick={droneReel} >
                             <Card.Img className="image" variant="top" src={Filmreel} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
@@ -63,7 +55,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={shooterReel} >
+                        <Card alt="film reel" onClick={travisDoc} >
                             <Card.Img className="image" variant="top" src={Filmreel} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
@@ -73,7 +65,7 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={shooterReel} >
+                        <Card alt="film reel" onClick={sevyDoc} >
                             <Card.Img className="image" variant="top" src={Filmreel} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
