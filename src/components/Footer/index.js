@@ -2,14 +2,19 @@ import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
+
 import Link from '@mui/material/Link';
+// bootstrap elements 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
+      <Link color="inherit" href="/">
         Adamwestcreative.com
       </Link>{' '}
       {new Date().getFullYear()}
@@ -20,32 +25,10 @@ function Copyright() {
 
 export default function Footer() {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '50vh',
-      }}
-    >
-      <CssBaseline />
-      <Box
-        component="footer"
-        sx={{
-          py: 3,
-          px: 2,
-          mt: 'auto',
-          backgroundColor: (theme) =>
-            theme.palette.mode === 'light'
-              ? theme.palette.grey[200]
-              : theme.palette.grey[800],
-        }}
-      >
-        <Container maxWidth="sm">
-          <Typography variant="body1">
-          </Typography>
-          <Copyright />
-        </Container>
-      </Box>
-    </Box>
+    <div className="container footer">
+      <p>© <a href='/'>Adamwestcreative.com</a> {new Date().getFullYear()}
+      {'.'}</p>
+    </div>
+
   );
 }
