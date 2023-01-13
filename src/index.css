@@ -81,8 +81,18 @@ body {
 
 }
 
+.image-overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.15s;
+}
+
 .image-overlay:hover {
   opacity: 1;
+
+}
+
+.image-overlay:hover>* {
+  transform: translateY(0px);
 }
 
 .img-title {
@@ -92,16 +102,17 @@ body {
 }
 
 /* Resume styling */
-.film-list{
+.film-list {
   /* text-decoration: underline; */
   border-bottom: 1px solid white;
 }
+
 .resume-title,
-.resume-title a  {
+.resume-title a {
   color: white;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .resume-title a {
