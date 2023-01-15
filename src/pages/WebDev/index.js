@@ -6,6 +6,8 @@ import Footer from '../../components/Footer';
 import ReactFest from '../../assets/images/React-fest.png'
 import FoodFestival from '../../assets/images/FoodFestival.png'
 import Recipe from '../../assets/images/Recipe.png'
+import Pyrunner from '../../assets/images/Pyrunner.png'
+
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
@@ -23,11 +25,14 @@ const foodFestivalChange = () => {
 const codingChange = () => {
     window.location.href = "https://adamwest023.github.io/git-a-recipe/"
 }
+const pyRunnerChange = () => {
+    window.location.href = 'https://adamwest023.github.io/Endless-runner-game/'
+}
 
 const WebDev = () => {
     return (
         <>
-            <SiteNavbar/>
+            <SiteNavbar />
             <Container>
                 <Row xs={1} md={2} className="g-4 mt-2">
                     <Col >
@@ -47,7 +52,7 @@ const WebDev = () => {
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">Food Fest </div>
-                                    <div className="img-text">Stripe demo project</div> 
+                                    <div className="img-text">Stripe demo project</div>
                                 </div>
                             </div>
                         </Card>
@@ -69,6 +74,17 @@ const WebDev = () => {
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">PyShooter</div>
+                                    <div className="img-text">Python built game</div>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col p-2 g-col-6>
+                        <Card alt="python runner game" onClick={pyRunnerChange} >
+                            <Card.Img className="image" variant="top" src={Pyrunner} />
+                            <div className='img-hover' >
+                                <div className="image-overlay">
+                                    <div className="img-title">Pygame Runner Game</div>
                                     <div className="img-text">Python built game</div>
                                 </div>
                             </div>

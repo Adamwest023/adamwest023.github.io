@@ -7,13 +7,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Ratio from 'react-bootstrap/Ratio';
-import WebsiteReel from '/Users/admin/Desktop/Bootcamp/portfolio-react2/website/src/assets/videos/WebsiteReel.mp4'
+import WebReel from '../../assets/videos/WebReel.mp4'
 
 const Header = () => {
     return (
         <div className='home' >
             <div className='overlay'></div>
-            <video className="video" src={WebsiteReel} autoPlay loop muted />
+            <video className="video" src={WebReel} autoPlay loop muted />
             <div className="home-content">
                 <h1>Adam West Creative</h1>
             </div>
