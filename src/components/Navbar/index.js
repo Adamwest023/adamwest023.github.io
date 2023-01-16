@@ -1,13 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// impor headshot from '../../assets/images/Headshot.jpg'
-// import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "/Users/admin/Desktop/Bootcamp/portfolio-react2/website/src/styles/navbar.css"
+
 
 
 

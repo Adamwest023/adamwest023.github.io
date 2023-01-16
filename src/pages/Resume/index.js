@@ -1,8 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
-import CodeResume from '../../assets/images/AdamWestResumeCoding.png'
-import FilmResume from '../../assets/images/AdamWestResumeFilm.png'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

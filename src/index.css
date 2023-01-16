@@ -1,30 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family:'Calluna'; */
   font-family: 'Calluna', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.resume {
-  margin-top: 20px !important;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background-color: black !important;
   color: 'white' !important;
+  font-family: 'Calluna', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card {
   height: 100%;
 }
+
+/* navbar styles */
+.navbar {
+  border-bottom: 1px solid white; 
+}
+.navbar-element {
+  color: white !important;
+  background-color: black;
+}
+
+#brand {
+font-size: 30px;}
+
+.collapsed,
+.navbar-toggler-icon,
+.navbar-toggler,
+#collasible-nav-dropdown,
+#responsive-navbar-nav {
+  color: white !important;
+}
+
 
 /* Home page CSS */
 .home {
@@ -47,15 +59,14 @@ body {
   color: white;
   font-size: 13px;
   display: flex;
-  /* align-content: space-around; */
   justify-content: flex-start;
   align-items: flex-end;
+  border-top: 1px solid white;
 }
 
 .footer a {
   text-decoration: none;
   color: white;
-
 }
 
 .footer a:hover,
@@ -85,7 +96,6 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.15s;
-
 }
 
 .image-overlay>* {
@@ -95,7 +105,6 @@ body {
 
 .image-overlay:hover {
   opacity: 1;
-
 }
 
 .image-overlay:hover>* {
@@ -109,8 +118,14 @@ body {
 }
 
 /* Resume styling */
+.resume {
+  margin-top: 20px !important;
+}
+.resume-title a {
+  text-decoration: none !important;
+}
+
 .film-list {
-  /* text-decoration: underline; */
   border-bottom: 1px solid white;
 }
 
@@ -122,7 +137,3 @@ body {
 
 }
 
-.resume-title a {
-  text-decoration: none !important;
-
-}
