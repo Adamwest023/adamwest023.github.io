@@ -32,7 +32,7 @@ const WebDev = () => {
     return (
         <>
             <SiteNavbar />
-            <Container>
+            <Container className="main-section">
                 <Row xs={1} md={2} className="g-4 mt-2">
                     <Col >
                         <Card alt="REact Fest Website" onClick={reactFestChange} >
@@ -67,7 +67,7 @@ const WebDev = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col p-2 g-col-6>
+                    {/* <Col p-2 g-col-6>
                         <Card alt="film reel" onClick={codingChange} >
                             <Card.Img className="image" variant="top" src={Recipe} />
                             <div className='img-hover' >
@@ -77,7 +77,7 @@ const WebDev = () => {
                                 </div>
                             </div>
                         </Card>
-                    </Col>
+                    </Col> */}
                     <Col p-2 g-col-6>
                         <Card alt="python runner game" onClick={pyRunnerChange} >
                             <Card.Img className="image" variant="top" src={Pyrunner} />

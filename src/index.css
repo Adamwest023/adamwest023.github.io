@@ -16,6 +16,9 @@ body {
 .card {
   height: 100%;
 }
+.main-section{
+  padding-bottom: 20px !important;
+}
 
 /* navbar styles */
 .navbar {
