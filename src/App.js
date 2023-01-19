@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Success from './pages/Success'
 import Rentals from './pages/Rentals'
 import WebDev from './pages/WebDev'
+import AboutMe from './pages/AboutMe'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/contact' component={Contact} />
       <Route path='/success' component={Success} />
       <Route path='/rentals' component={Rentals} />
+      <Route path='/aboutme' component={AboutMe} />
     </>
   );
 }

@@ -21,7 +21,7 @@ const SiteNavbar = () => {
                         <Nav.Link className="navbar-element" component= {Link} to={'/portfolio'}href="/webDev">Web Dev</Nav.Link>  
                         <Nav.Link className="navbar-element"href="/rentals">Rentals</Nav.Link>
                         <NavDropdown className="navbar-element" title="Information" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/resume">About</NavDropdown.Item>
+                            <NavDropdown.Item href="/aboutme">About</NavDropdown.Item>
                             <NavDropdown.Item href="/resume">Resume</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/contact">
