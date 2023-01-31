@@ -3,15 +3,14 @@ import React from 'react';
 //new components for bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import WebReel from '../../assets/videos/WebReel.mp4'
+import DroneReel from '../../assets/videos/DroneReel.mp4'
 
 const Header = () => {
     return (
         <div className='home' >
             <div className='overlay'></div>
-            <video className="video" src={WebReel} autoPlay loop muted />
-            <div className="home-content">
-                <h1>Adam West Creative</h1>
-            </div>
+            <video className="video1" src={WebReel} autoPlay loop muted />
+            <video className="video2" src={DroneReel} autoPlay loop muted />
         </div>
     )
 }

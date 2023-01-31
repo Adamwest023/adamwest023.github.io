@@ -19,7 +19,7 @@ const shooterReel = () => {
     window.location.href = "https://vimeo.com/672158658"
 }
 const droneReel =() => {
-    window.location.href = "https://vimeo.com/672158658"
+    window.location.href = "https://vimeo.com/794636156"
 }
 const travisDoc = () => {
     window.location.href = "https://tv.apple.com/us/episode/hi-im-travis-mills/umc.cmc.15sh3bkacqjj0cfqvvcokjexx"
