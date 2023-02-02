@@ -21,7 +21,7 @@ const reactFestChange = () => {
 const foodFestivalChange = () => {
     window.location.href = "https://adamwest023.github.io/food-festival/index.html#"
 }
-const codingChange = () => {
+const gitRecipe = () => {
     window.location.href = "https://adamwest023.github.io/git-a-recipe/"
 }
 const pyRunnerChange = () => {
@@ -57,7 +57,7 @@ const WebDev = () => {
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
-                        <Card alt="film reel" onClick={codingChange} >
+                        <Card alt="film reel" onClick={gitRecipe} >
                             <Card.Img className="image" variant="top" src={Recipe} />
                             <div className='img-hover' >
                                 <div className="image-overlay">

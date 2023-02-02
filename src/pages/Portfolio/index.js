@@ -7,6 +7,7 @@ import DroneReel from '../../assets/images/DroneReel.png'
 import HiImTravis from '../../assets/images/HiImTravis.png'
 import HiImSevy from '../../assets/images/HiImSevy.png'
 import WellStories from '../../assets/images/WellStories.png'
+import TonkawaStill from '../../assets/images/TonkawaStill.jpg'
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
@@ -18,7 +19,7 @@ import Container from 'react-bootstrap/Container';
 const shooterReel = () => {
     window.location.href = "https://vimeo.com/672158658"
 }
-const droneReel =() => {
+const droneReel = () => {
     window.location.href = "https://vimeo.com/794636156"
 }
 const travisDoc = () => {
@@ -29,6 +30,9 @@ const sevyDoc = () => {
 }
 const wellStories = () => {
     window.location.href = "https://youtu.be/Zkm8aD2x6HE"
+}
+const tonkawaDoc = () => {
+    window.location.href = "https://www.tonkawathemovie.com/"
 }
 
 
@@ -80,6 +84,16 @@ const Portfolio = () => {
                         </Card>
                     </Col>
                     <Col p-2 g-col-6>
+                        <Card alt="film reel" onClick={tonkawaDoc} >
+                            <Card.Img className="image" variant="top" src={TonkawaStill} />
+                            <div className='img-hover' >
+                                <div className="image-overlay">
+                                    <div className="img-title">Tonkawa Documentary</div>
+                                </div>
+                            </div>
+                        </Card>
+                    </Col>
+                    <Col p-2 g-col-6>
                         <Card alt="film reel" onClick={wellStories} >
                             <Card.Img className="image" variant="top" src={WellStories} />
                             <div className='img-hover' >
@@ -89,9 +103,9 @@ const Portfolio = () => {
                             </div>
                         </Card>
                     </Col>
+
                 </Row>
             </Container>
-            
             <Footer />
         </>
     )

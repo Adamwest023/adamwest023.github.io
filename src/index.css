@@ -55,7 +55,7 @@ body {
 .video2 {
   padding: 0;
   width: 100%;
-  height: 75vh;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -113,6 +113,7 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.15s;
+  cursor: pointer;
 }
 
 .image-overlay>* {
@@ -152,5 +153,96 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+}
 
+/* about me  */
+.about-font {
+  color: white !important;
+  text-align: center;
+}
+
+.headshot {
+  height: 500px;
+  margin-bottom: 60px;
+  width: 140%;
+  position: relative;
+  right: 50px;
+  object-position: 85% 40%;
+  object-fit: cover;
+}
+
+/* rental page */
+.rental-page-font {
+  color: white;
+}
+
+.card-group-1 {
+  padding: 20px;
+}
+
+.product-cards {
+  margin: 10px;
+  border-radius: 10px !important;
+}
+
+.rental-text {
+  margin-right: 10px;
+}
+
+.card-img {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom: 1px black solid !important;
+}
+
+/* breakpoints */
+@media only screen and (min-width: 992px) {
+  .headshot {
+    width: 100%;
+    right: 0px;
+    margin-bottom: 50px;
+    object-position: 45% 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headshot {
+    width: 100%;
+    right: 0px;
+    object-position: 65% 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .headshot {
+    width: 100%;
+    right: 0px;
+    margin-bottom: 45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-position: 45% 20%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headshot {
+    width: 100%;
+    right: 0px;
+    margin-bottom: 15px;
+    object-position: 45% 20%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
 }
