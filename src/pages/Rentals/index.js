@@ -11,6 +11,19 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 // src for images
 import prolight from '../../assets/images/rentals/600xPro.png'
+import blackmagic4k from '../../assets/images/rentals/BMPCC4k.png'
+import blackmagic6k from '../../assets/images/rentals/BMPCC6K.png'
+import blackmagic6kv2 from '../../assets/images/rentals/BMPCC6kv2.png'
+import dzo1 from '../../assets/images/rentals/dzo1.png'
+import dzo2 from '../../assets/images/rentals/dzo2.png'
+import dzo3 from '../../assets/images/rentals/dzo3.png'
+import dzo4 from '../../assets/images/rentals/dzo4.png'
+import smallHD1 from '../../assets/images/rentals/smallHD1.png'
+import tiffenND from '../../assets/images/rentals/tiffen.png'
+
+
+
+
 
 
 
@@ -45,92 +58,67 @@ const Rentals = () => {
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
+                    <Card.Img variant="top" className='card-img' src={dzo1} />
                     <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
+                        <Card.Title>Dzo Pictor Lens</Card.Title>
                         <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
+                           20-55mm and 50-125mm ef and pl mounted parfocal super 35mm lens 
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
+                        <small className="text-muted rental-text">$200/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
+                    <Card.Img variant="top" className='card-img' src={smallHD1} />
                     <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
+                        <Card.Title>1702 Small HD Monitor</Card.Title>
                         <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
+                            17in production monitor with gold mount attachment. Can support 2 sdi and single hdmi inputs
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
-                    </Card.Footer>
-                </Card>
-                <Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
-                    <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
-                        <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
+                        <small className="text-muted rental-text">$250/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
                 </Card>
             </CardGroup>
             <CardGroup className='card-group-1'>
             <Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
+                    <Card.Img variant="top" className='card-img' src={tiffenND} />
                     <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
+                        <Card.Title>Tiffen ND filters</Card.Title>
                         <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
+                           4 x 5.65 nd filters with .3,.6,.9,and 1.2 stops 
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
+                        <small className="text-muted rental-text">$35/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
                 </Card><Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
+                    <Card.Img variant="top" className='card-img' src={blackmagic6k} />
                     <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
+                        <Card.Title>Black Magic Pocket Cam 6k</Card.Title>
                         <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
+                         Black Magic Pocket Cam 6k
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
+                        <small className="text-muted rental-text">$45/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
                 </Card><Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
+                    <Card.Img variant="top" className='card-img' src={blackmagic4k} />
                     <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
+                        <Card.Title>Black Magic Pocket 4k</Card.Title>
                         <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
+                        Black Magic Pocket Cam 6k
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
-                    </Card.Footer>
-                </Card><Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={prolight} />
-                    <Card.Body>
-                        <Card.Title>600x Pro</Card.Title>
-                        <Card.Text>
-                            Apurture 600 light with bi-color options and bluetooth capabilities
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted rental-text">$85/day or weekend</small>
+                        <small className="text-muted rental-text">$35/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
                 </Card>
