@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline'
 import "bootstrap/dist/css/bootstrap.min.css"

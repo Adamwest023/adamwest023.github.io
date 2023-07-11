@@ -178,9 +178,11 @@ body {
 
 .card-group-1 {
   padding: 20px;
+  
 }
 
-.product-cards {
+.product-cards,
+.carousel-item {
   margin: 10px;
   border-radius: 10px !important;
 }
@@ -195,8 +197,20 @@ body {
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom: 1px black solid !important;
+  
 }
-
+/* Carousel */
+.carousel{
+  border-bottom: 1px black solid !important;
+}
+.carousel-item img{
+  height: 90%;
+  width:90%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  color: black !important;
+}
 /* breakpoints */
 @media only screen and (min-width: 992px) {
   .headshot {
@@ -209,7 +223,12 @@ body {
     object-fit: cover;
     position: relative;
   }
+  .card-img,
+  .carousel-inner{
+    height: 450px;
+  }
 }
+
 
 @media only screen and (min-width: 768px) {
   .headshot {
@@ -221,7 +240,12 @@ body {
     margin-bottom: 20px;
     object-fit: cover;
   }
+  .card-img,
+  .carousel-inner{
+    height: 250px;
+  }
 }
+
 
 @media only screen and (min-width: 600px) {
   .headshot {
@@ -233,6 +257,15 @@ body {
     object-position: 45% 20%;
     object-fit: cover;
   }
+  .card-img,
+  .carousel-inner{
+    height: 200px ;
+  }
+  .carousel-item{
+    height: 90%;
+    width: 90%;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -244,5 +277,9 @@ body {
     object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+  }
+  .card-img,
+  .carousel-inner{
+    height: 200px ;
   }
 }

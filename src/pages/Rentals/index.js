@@ -5,9 +5,7 @@ import Footer from '../../components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container';
+// import Carousel from '../../components/Carousel';
 import Button from 'react-bootstrap/Button';
 // src for images
 import prolight from '../../assets/images/rentals/600xPro.png'
@@ -20,12 +18,7 @@ import dzo3 from '../../assets/images/rentals/dzo3.png'
 import dzo4 from '../../assets/images/rentals/dzo4.png'
 import smallHD1 from '../../assets/images/rentals/smallHD1.png'
 import tiffenND from '../../assets/images/rentals/tiffen.png'
-
-
-
-
-
-
+import MyCarousel from '../../components/Carousel';
 
 
 const Rentals = () => {
@@ -33,7 +26,7 @@ const Rentals = () => {
     return (
         <>
             <SiteNavbar />
-            <section className='py-5 text-center container rental-page-font'>
+            <section href="#" className='py-5 text-center container rental-page-font'>
                 <div className='row py-lg-5'>
                     <div className='col-lg-6 col-md-8 mx-auto'>
                         <h1>Gear Rental</h1>
@@ -58,11 +51,11 @@ const Rentals = () => {
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
-                    <Card.Img variant="top" className='card-img' src={dzo1} />
+                   <MyCarousel/>
                     <Card.Body>
                         <Card.Title>Dzo Pictor Lens</Card.Title>
                         <Card.Text>
-                           20-55mm and 50-125mm ef and pl mounted parfocal super 35mm lens 
+                            20-55mm and 50-125mm ef and pl mounted parfocal super 35mm lenses
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -85,12 +78,12 @@ const Rentals = () => {
                 </Card>
             </CardGroup>
             <CardGroup className='card-group-1'>
-            <Card className='product-cards'>
+                <Card className='product-cards'>
                     <Card.Img variant="top" className='card-img' src={tiffenND} />
                     <Card.Body>
                         <Card.Title>Tiffen ND filters</Card.Title>
                         <Card.Text>
-                           4 x 5.65 nd filters with .3,.6,.9,and 1.2 stops 
+                            4 x 5.65 nd filters with .3,.6,.9,and 1.2 stops
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -102,7 +95,7 @@ const Rentals = () => {
                     <Card.Body>
                         <Card.Title>Black Magic Pocket Cam 6k</Card.Title>
                         <Card.Text>
-                         Black Magic Pocket Cam 6k
+                            Black Magic Pocket Cam 6k
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -114,7 +107,7 @@ const Rentals = () => {
                     <Card.Body>
                         <Card.Title>Black Magic Pocket 4k</Card.Title>
                         <Card.Text>
-                        Black Magic Pocket Cam 6k
+                            Black Magic Pocket Cam 6k
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
