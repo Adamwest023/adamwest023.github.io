@@ -2,7 +2,7 @@ import React from 'react'
 import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
 //photos for cards
-import Filmreel from '../../assets/images/FilmReel.png'
+// import Filmreel from '../../assets/images/FilmReel.png'
 import DroneReel from '../../assets/images/DroneReel.png'
 import HiImTravis from '../../assets/images/HiImTravis.png'
 import HiImSevy from '../../assets/images/HiImSevy.png'
@@ -45,7 +45,7 @@ const Portfolio = () => {
                 <Row xs={1} md={2} className="g-4 mt-2">
                     <Col>
                         <Card alt="film reel" onClick={shooterReel} >
-                            <Card.Img className="image" variant="top" src={Filmreel} />
+                            <Card.Img className="image" variant="top" src={TonkawaStill} />
                             <div className='img-hover' >
                                 <div className="image-overlay">
                                     <div className="img-title">Film Reel</div>
