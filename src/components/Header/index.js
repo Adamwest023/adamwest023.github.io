@@ -6,10 +6,10 @@ import WebReel from '../../assets/videos/WebReel.mp4'
 import DroneReel from '../../assets/videos/DroneReel.mp4'
 
 const webReel = () => {
-    window.location.href = "https://myvideobucket2323.s3.us-east-2.amazonaws.com/WebReel.mp4"
+    window.location.href = "https://d3bzx38djekrwn.cloudfront.net/WebReel.mp4"
 }
 const droneUrl = () => {
-    window.location.href = "https://myvideobucket2323.s3.us-east-2.amazonaws.com/DroneReel.mp4"}
+    window.location.href = "https://d3bzx38djekrwn.cloudfront.net/DroneReel.mp4"}
 
 
 const Header = () => {
