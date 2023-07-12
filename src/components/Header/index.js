@@ -9,8 +9,8 @@ const Header = () => {
     return (
         <div className='home' >
             <div className='overlay'></div>
-            <video className="video1" src={WebReel} autoPlay loop muted />
-            <video className="video2" src={DroneReel} autoPlay loop muted />
+            <video className="video1" src={WebReel} type="video/mp4" autoPlay loop muted />
+            <video className="video2" src={DroneReel} type="video/mp4" autoPlay loop muted />
         </div>
     )
 }
