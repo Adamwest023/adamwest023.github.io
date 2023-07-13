@@ -14,7 +14,7 @@ const Header = () => {
         <div className='home' >
             <div className='overlay'></div>
             <video className="video1" url={webReel} type="video/mp4" autoPlay loop muted />
-            <video className="video2" src={DroneReel} type="video/mp4" autoPlay loop muted />
+            <video className="video2" type="video/mp4" autoPlay loop muted ><source src={DroneReel} /> </video> 
         </div>
     )
 }
