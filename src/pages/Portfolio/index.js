@@ -7,7 +7,7 @@ import DroneReel from '../../assets/images/DroneReel.jpeg'
 import HiImTravis from '../../assets/images/HiImTravis.jpeg'
 import HiImSevy from '../../assets/images/HiImSevy.png'
 import WellStories from '../../assets/images/WellStories.jpeg'
-import TonkawaStill from '../../assets/images/TonkawaStill.jpg'
+import TonkawaStill from '../../assets/images/Tonkawa.jpeg'
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
