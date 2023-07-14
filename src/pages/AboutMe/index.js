@@ -1,7 +1,7 @@
 import React from 'react';
 import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
-import Headshot from '../../assets/images/Headshot.jpg';
+import Headshot from '../../assets/images/Headshot.jpeg';
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
