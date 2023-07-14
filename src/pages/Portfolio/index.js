@@ -3,10 +3,10 @@ import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
 //photos for cards
 // import Filmreel from '../../assets/images/FilmReel.png'
-import DroneReel from '../../assets/images/DroneReel.png'
-import HiImTravis from '../../assets/images/HiImTravis.png'
+import DroneReel from '../../assets/images/DroneReel.jpeg'
+import HiImTravis from '../../assets/images/HiImTravis.jpeg'
 import HiImSevy from '../../assets/images/HiImSevy.png'
-import WellStories from '../../assets/images/WellStories.png'
+import WellStories from '../../assets/images/WellStories.jpeg'
 import TonkawaStill from '../../assets/images/TonkawaStill.jpg'
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"

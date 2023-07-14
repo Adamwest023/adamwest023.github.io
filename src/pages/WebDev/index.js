@@ -2,10 +2,10 @@ import React from "react";
 import SiteNavbar from '../../components/Navbar'
 import Footer from '../../components/Footer';
 //photos for cards
-import ReactFest from '../../assets/images/React-fest.png'
-import FoodFestival from '../../assets/images/FoodFestival.png'
-import Recipe from '../../assets/images/Recipe.png'
-import Pyrunner from '../../assets/images/Pyrunner.png'
+import ReactFest from '../../assets/images/React-fest.jpeg'
+import FoodFestival from '../../assets/images/FoodFestival.jpeg'
+import Recipe from '../../assets/images/Recipe.jpeg'
+import Pyrunner from '../../assets/images/Pyrunner.jpeg'
 
 //Styling stich to bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
