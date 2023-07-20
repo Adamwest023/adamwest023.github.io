@@ -67,6 +67,7 @@ body {
 .video1 {
   padding-bottom: 0px;
   padding-top: 30px;
+  src: "https://mynewvideobucket12.s3.us-east-2.amazonaws.com/2022+Reel_downrez5.mp4";
 }
 
 /* footer styles */
@@ -281,5 +282,8 @@ body {
   .card-img,
   .carousel-inner{
     height: 200px ;
+  }
+  .video1 {
+    src: "https://mynewvideobucket12.s3.us-east-2.amazonaws.com/DroneReeldownrez_mobile.mp4";
   }
 }
