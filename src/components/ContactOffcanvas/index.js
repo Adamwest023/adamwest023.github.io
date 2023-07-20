@@ -20,7 +20,7 @@ function Example() {
                     <Grid item alignContent="center" alignItems="center">
                         <Card style={{ maxWidth: 500, margin: '0  auto' }}>
                             <CardContent>
-                                <form action="https://formsubmit.co/6c927c0a52e3584dc0fdf5e096217647" method="POST">
+                                <form action="https://formsubmit.co/adamwest023@gmail.com" method="POST">
                                     <Grid container spacing={1} md={12} >
                                         <Grid item xs={12} fullWidth style={{ textAlign: 'center' }}>
                                             <Typography gutterBottom variant="h5">
