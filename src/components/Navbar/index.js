@@ -17,7 +17,7 @@ const SiteNavbar = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const success = () => {window.location.href = "/success"}
+    const success = () => { window.location.href = "http://localhost:3000/success" }
 
 
     return (
@@ -39,7 +39,7 @@ const SiteNavbar = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
 
-                        <Offcanvas show={show} onHide={handleClose}>
+                        <Offcanvas show={show} onHide={handleClose} placement='end'>
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title>Contact</Offcanvas.Title>
                             </Offcanvas.Header>
@@ -70,12 +70,12 @@ const SiteNavbar = () => {
                                                         <TextField multiline name="message" rows={4} label="message" placeholder="Type your message here" variant="outlined" fullWidth required />
                                                     </Grid>
                                                     <Grid item xs={12}>
-                                                        <Button type="submit" variant='contained' color="primary" 
-                                                        onSubmit={success}
-                                                        fullWidth> Submit</Button>
+                                                        <Button type="submit" variant='contained' color="primary"
+                                                            onSubmit={success}
+                                                            fullWidth> Submit</Button>
                                                     </Grid>
                                                     <input type="hidden" name="_next" value="/success"
-                                                    onSubmit={success}></input>
+                                                        onSubmit={success}></input>
                                                     <input type="hidden" name="_captcha" value="false"></input>
                                                 </Grid>
                                             </form>

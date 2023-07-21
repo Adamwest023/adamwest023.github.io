@@ -38,7 +38,7 @@ const AboutMe = () => {
                 </div>
             </div>
 
-            <Offcanvas show={show} onHide={handleClose}>
+            <Offcanvas show={show} onHide={handleClose} placement="end">
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Contact</Offcanvas.Title>
                 </Offcanvas.Header>
