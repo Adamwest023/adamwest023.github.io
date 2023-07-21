@@ -27,7 +27,7 @@ const Rentals = () => {
     return (
         <>
             <SiteNavbar />
-            <section href="#" className='py-5 text-center container rental-page-font'>
+            <section href="#" className='py-1 text-center container rental-page-font'>
                 <div className='row py-lg-5'>
                     <div className='col-lg-6 col-md-8 mx-auto'>
                         <h1>Gear Rental</h1>

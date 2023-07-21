@@ -26,7 +26,7 @@ const SiteNavbar = () => {
                 <Navbar.Brand id="brand" href="/">Adam {'\n'} West</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto ">
+                    <Nav className="me-auto">
                         <Nav.Link className="navbar-element" component={Link} to={'/portfolio'} href="/portfolio">Cinematography</Nav.Link>
                         <Nav.Link className="navbar-element" component={Link} to={'/portfolio'} href="/webDev">Web Dev</Nav.Link>
                         <Nav.Link className="navbar-element" href="/rentals">Rentals</Nav.Link>
