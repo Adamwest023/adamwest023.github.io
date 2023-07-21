@@ -19,6 +19,7 @@ import dzo4 from '../../assets/images/rentals/dzo4.png'
 import smallHD1 from '../../assets/images/rentals/smallHD1.png'
 import tiffenND from '../../assets/images/rentals/tiffen.png'
 import MyCarousel from '../../components/Carousel';
+import coreui from '@coreui/coreui'
 
 
 const Rentals = () => {
@@ -51,7 +52,7 @@ const Rentals = () => {
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
-                   <MyCarousel/>
+                    <Card.Img variant="top" className='card-img' src={dzo1} />
                     <Card.Body>
                         <Card.Title>Dzo Pictor Lens</Card.Title>
                         <Card.Text>
@@ -102,7 +103,8 @@ const Rentals = () => {
                         <small className="text-muted rental-text">$45/day or weekend</small>
                         <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
                     </Card.Footer>
-                </Card><Card className='product-cards'>
+                </Card>
+                <Card className='product-cards'>
                     <Card.Img variant="top" className='card-img' src={blackmagic4k} />
                     <Card.Body>
                         <Card.Title>Black Magic Pocket 4k</Card.Title>

@@ -35,7 +35,7 @@ const WebDev = () => {
             <Container className="main-section">
                 <Row xs={1} md={2} className="g-4 mt-2">
                     <Col >
-                        <Card alt="REact Fest Website" onClick={reactFestChange} >
+                        <Card alt="React Fest Website" onClick={reactFestChange} >
                             <Card.Img className="image" variant="top" src={ReactFest} />
                             <div className='img-hover' >
                                 <div className="image-overlay">

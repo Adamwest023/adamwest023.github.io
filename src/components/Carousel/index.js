@@ -7,8 +7,8 @@ import dzo4 from '../../assets/images/rentals/dzo4.png'
 
 const MyCarousel = () => {
     return (
-        <Carousel data-bs-theme="dark">
-            <Carousel.Item>
+        <Carousel data-bs-theme="dark" className=" carousel-img">
+            <Carousel.Item >
                 <img
                     className=""
                     src={dzo1}

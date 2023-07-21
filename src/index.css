@@ -96,7 +96,7 @@ body {
 /* portfolio css */
 .image {
   position: relative;
-  height: 250px;
+  height: 300px;
   object-fit: fill;
 }
 
@@ -179,7 +179,6 @@ body {
 
 .card-group-1 {
   padding: 20px;
-  
 }
 
 .product-cards,
@@ -198,6 +197,7 @@ body {
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom: 1px black solid !important;
+  height: 300px !important;
   
 }
 /* Carousel */
@@ -205,12 +205,18 @@ body {
   border-bottom: 1px black solid !important;
 }
 .carousel-item img{
-  height: 90%;
+  height: 150%;
   width:90%;
 }
+.carousel-img {
+  height: 300px;
+}
 .carousel-control-next-icon,
-.carousel-control-prev-icon {
+.carousel-control-prev-icon,
+.carousel-indicators {
   color: black !important;
+  visibility: hidden !important;
+  height: 0px !important;
 }
 /* breakpoints */
 @media only screen and (min-width: 992px) {
