@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import cookieParser from "cookie-parser"
 import authRoute from "./routes/auth.js"
 import userRoute from "./routes/users.js"
 import gearRoute from "./routes/gear.js"
@@ -29,6 +30,7 @@ app.get('/users', (req, res) => {
 })
 
 //middlewares
+app.use(cookieParser());
 app.use(express.json());
 
 app.use("/api/auth", authRoute);
