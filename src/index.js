@@ -1,4 +1,6 @@
 import React from 'react';
+import express from "express"
+import dotenv from "dotenv"
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css'
@@ -6,11 +8,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
+const app = express()
+dotenv.config()
+
+app.listen(8000, () => {
+  console.log("backend")
+  ;
+})
+
 ReactDOM.render(
   <Router>
     <App />
   </Router>,
-   document.getElementById('root')
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
