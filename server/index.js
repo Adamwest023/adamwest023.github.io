@@ -29,6 +29,8 @@ app.get('/users', (req,res) => {
 })
 
 //middlewares
+app.use(express.json());
+
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
 app.use("/api/gear", gearRoute);
