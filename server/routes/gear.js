@@ -1,16 +1,16 @@
 import express from "express";
 import Gear from "../models/Gear.js";
 import { createGear, deleteGear, updateGear, getGear, getAllGear } from "../controllers/gear.js";
-import { createError } from "../utils/error.js";
+import { verifyAdmin } from "../utils/verifyToken.js";
 
 const router = express.Router();
 
 //CREATE
-router.post("/", createGear);
+router.post("/", verifyAdmin, createGear);
 //UPDATE
-router.put("/:id", updateGear);
+router.put("/:id", verifyAdmin, updateGear);
 //DELETE
-router.delete("/:id", deleteGear);
+router.delete("/:id", verifyAdmin, deleteGear);
 //GET
 router.get("/:id", getGear);
 //GETALL
