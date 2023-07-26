@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Route } from 'react-router-dom';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline'
@@ -11,9 +12,22 @@ import Success from './pages/Success'
 import Rentals from './pages/Rentals'
 import WebDev from './pages/WebDev'
 import AboutMe from './pages/AboutMe'
+import useFetch from './hooks/useFetch';
+
 
 function App() {
-  return (
+  const {data, loading, error} = useFetch("/gear");
+  console.log(data);
+  // const [data, setData] = React.useState(null);
+  // const [data, setData] = React.useState(null);
+  // React.useEffect(() => {
+  //   fetch("http://localhost:3001/api/gear")
+  //     .then((res) => res.json()) 
+  //     .then((data) => setData(data.message));
+  // }, []);
+  console.log(data);
+
+  return (  
     <>
       <CssBaseline />
       <Route exact path='/' component={Home} />

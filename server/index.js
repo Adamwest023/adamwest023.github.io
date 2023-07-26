@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser"
@@ -30,6 +31,7 @@ app.get('/users', (req, res) => {
 })
 
 //middlewares
+app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 
@@ -49,7 +51,7 @@ app.use((err, req, res, next) => {
 })
 
 
-const PORT = process.env.PORT || 8800;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
   connect()
