@@ -64,7 +64,7 @@ const Rentals = () => {
                     <Card.Body>
                         <Card.Title>{data[1]?.name}</Card.Title>
                         <Card.Text>
-                            {data[0]?.desc}
+                            {data[1]?.desc}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
