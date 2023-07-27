@@ -5,13 +5,8 @@ import Headshot from '../../assets/images/Headshot.jpeg';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Grid, Typography, Card, Box, CardContent, TextField, Button } from '@material-ui/core'
-import Success from '../Success';
+import { Grid, Typography, Card, CardContent, TextField, Button } from '@material-ui/core'
 
-
-const contact = () => {
-    window.location.href = "/contact";
-}
 
 const AboutMe = () => {
     const [show, setShow] = useState(false);
@@ -33,7 +28,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                     <div className='col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg'>
-                        <img className="rounded-lg-3 headshot" src={Headshot} alt width={720}></img>
+                        <img className="rounded-lg-3 headshot" src={Headshot} alt="headshot" width={720}></img>
                     </div>
                 </div>
             </div>
