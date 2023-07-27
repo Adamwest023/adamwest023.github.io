@@ -18,7 +18,6 @@ import canon from '../../assets/images/rentals/canon.jpeg'
 import touch from '../../assets/images/rentals/smallHD_Touch.jpeg'
 import vespid from '../../assets/images/rentals/vespid.jpeg'
 
-
 //assets for carousel future update
 // import Carousel from '../../components/Carousel';
 // import blackmagic6kv2 from '../../assets/images/rentals/BMPCC6kv2.png'
@@ -56,7 +55,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[0]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
@@ -69,7 +68,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[1]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
@@ -82,7 +81,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[2]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
             </CardGroup>
@@ -97,7 +96,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[3]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card><Card className='product-cards'>
                     <Card.Img variant="top" className='card-img' src={dzo1} />
@@ -109,7 +108,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[4]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
@@ -122,7 +121,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[5]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
             </CardGroup>
@@ -137,7 +136,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[6]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
@@ -150,7 +149,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[8]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card className='product-cards'>
@@ -163,7 +162,7 @@ const Rentals = () => {
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted rental-text">${data[7]?.price}/day or weekend</small>
-                        <Button variant="outline-dark" className='rental-button'> Add to Cart</Button>
+                        {/* <Button variant="outline-dark" className='rental-button'> Add to Cart</Button> */}
                     </Card.Footer>
                 </Card>
             </CardGroup>
